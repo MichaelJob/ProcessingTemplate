@@ -9,7 +9,6 @@ public class PongApp extends PApplet {
     float diam = 20;
     float rectSize = 80;
 
-    //main method needed on Windows (Win11 - JDK 17.0.4) - not on macOS (?)
     public static void main(String args[]) {
         PApplet.main(new String[] { PongApp.class.getName() });
     }
