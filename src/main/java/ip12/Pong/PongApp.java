@@ -1,4 +1,4 @@
-package Pong;
+package ip12.Pong;
 
 import processing.core.PApplet;
 
