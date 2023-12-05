@@ -3,7 +3,9 @@
 
 ## Setup
 
-Processing4 `core.jar` is included in the repo. But you have to install it in your local maven-repository:
+Processing4 `core.jar` is included in the repo. But you have to install it in your local maven-repository.
+
+Enter this command in IntelliJ IDEA's Terminal Window:
 
 ```shell
 mvn install:install-file -Dfile="src/main/resources/lib/core.jar" -DgroupId=org.processing -DartifactId=core -Dversion=4.0 -Dpackaging=jar -DgeneratePom=true
