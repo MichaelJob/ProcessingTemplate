@@ -6,7 +6,7 @@
 Processing4 `core.jar` is included in the repo. But you have to install it in your local maven-repository:
 
 ```shell
-mvn install:install-file -Dfile=src/main/resources/lib/core.jar -DgroupId=org.processing -DartifactId=core -Dversion=4.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile="src/main/resources/lib/core.jar" -DgroupId=org.processing -DartifactId=core -Dversion=4.0 -Dpackaging=jar -DgeneratePom=true
 ```
 
 After this step the example applications are compiling, and you can start them, either locally or on a Raspberry Pi.
