@@ -1,4 +1,4 @@
-package DemoApp;
+package ip12.DemoApp;
 
 import processing.core.PApplet;
 
