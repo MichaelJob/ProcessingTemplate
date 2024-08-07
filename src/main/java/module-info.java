@@ -3,6 +3,7 @@ module fhnw.ip {
     exports ip12;
     exports ip12.DemoApp;
     exports ip12.Pong;
+    exports ip12.ws2cQlockTwo;
 
     //Processing
     requires core;
